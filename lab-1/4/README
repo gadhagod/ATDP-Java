@@ -1,0 +1,3 @@
+Change Calculator: Write a program that prompts the user to enter a dollar amount as double. Then, calculate how many quarters, dimes, nickels and pennies are in the dollar amount. 
+For example: $2.68 = 10 quarters, 1 dime, 1 nickel and 3 cents. Print all of the values. 
+Hint: Use Modulus operator (%) and integer division (/)  when necessary. 
