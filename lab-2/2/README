@@ -1,0 +1,3 @@
+Guessing game: Create a java class called GuessingGame. Your program should  pick a random integer between 1 and 100.  Then, it should ask the user to guess the number and should give feedback whether the number is greater than or less than the original number. You should create a loop, either ask the user for a number of times or until the user guessed the number correctly. The loop should end when the user guesses the number. 
+Challenge 1: Give points to the users based on how fast they guess the number and negative points if it takes more than a certain amount of guesses
+Challenge 2: Ask the users whether they want to play the game again or you can allow them to play repeatedly. Users should be able to exit the game whenever they want. 
