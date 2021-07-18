@@ -1,0 +1,17 @@
+Line 2: "integer" must be replaced by "double" to declare it's type. The double equals must be a single, to assign `b`. You must also put a semicolon following the statement.
+Line 6: For the constructor, you must replace `MyClass` with `MyCla$$`. You must assign `this.b` instead of `b`,  because the program will think you are assigning the parameter `b`.
+Line 7: Function `doIt` has an incorrect return type. `int` should be replaced with `void`, signifying nothing is to be returned.
+Line 8: `’` cannot be used in variable names. The return type is incorrect as well, and must be changed to `MyCla$$`.
+
+The correct code could be:
+
+    class MyCla$$ {
+        double x = 3.0;
+        boolean b = false;
+
+        // constructor	
+        MyCla$$(boolean b) { this.b = b; }
+        void doIt() {}
+        
+        MyCla$$ dontDoIt () { return this; }
+    }

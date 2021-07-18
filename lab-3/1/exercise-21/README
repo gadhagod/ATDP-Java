@@ -1,0 +1,10 @@
+Find all the errors (if any) in the following class declaration:
+	Class MyCla$$ {
+	    integer x = 3.0;
+	    boolean b == false
+
+	    // constructor	
+	    MyClass(boolean b) { b = b; }
+	    int doIt() {}
+	    int don’tDoIt () { return this; }
+	}
