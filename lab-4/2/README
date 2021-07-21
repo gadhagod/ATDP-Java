@@ -1,0 +1,38 @@
+Instructions: Use any IDE to write and execute the program below. Attach Snipping photos of your source code and execution of the code in the console. 
+Hangman Game: Using Strings and strings methods, design a hangman game. 
+You should have a list of words to choose from (at least 20 words between lengths of 5 and 7). When each game starts it should choose a word from the list randomly. 
+Create a blank string with the exact size of your chosen word and fill it with underscores.
+After each correct guess places all of the occurences of the correct letter in the blank string and displays it. (Hint: Use substring method to reconstruct the blank string)
+If the user guesses a wrong letter, show a console-based hangman illustrating the progress. Please see the sample display below.
+Start Screen
+Progress Screen
+Lost Screen
+H A N G M A N
+  +---+
+       |
+       |
+       |
+======
+Missed letters:
+_ _ _ _ _
+Guess a letter:
+
+
+  +---+
+  0   |
+  |    |
+       |
+     ===
+Missed letters: o r
+_ a t
+Guess a letter:
+ +---+
+  0    |
+ /|\    |
+ / \    |
+========
+
+Keep all of the user guesses in an array of strings (or chars) and warn the user if they entered the same letter again.
+The game should repeat until the user guesses the word or loses the game. Allow users to miss up to four or five letters. 
+Add one more feature of your own. 
+Good Luck and Have Fun
